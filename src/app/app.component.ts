@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import{BarraSuperiorComponent} from './barra-superior/barra-superior.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'BaseAngular9';
+  title = 'Next U - Aprendiendo Angular';
 }
