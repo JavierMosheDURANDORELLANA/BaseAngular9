@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'BaseAngular9';
   tituloMostrado = true;
+  listaNombres = [ 'Juan', 'Javier', 'Ronald', 'Juanjo', 'María'];
 
   buttonClicked(){
     this.tituloMostrado = !this.tituloMostrado;

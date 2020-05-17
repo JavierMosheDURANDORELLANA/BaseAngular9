@@ -4,3 +4,7 @@
 
 <h2 *ngIf='tituloMostrado'>Titulo con directiva ngif </h2>
 <button (click)='buttonClicked()'>Botón</button>
+<hr>
+<ul>
+    <li *ngFor="let nombre of listaNombres">{{nombre}}</li>
+</ul>
