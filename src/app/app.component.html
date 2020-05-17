@@ -1,5 +1,11 @@
 <div class="contenedor-principal">
     <barra-superior></barra-superior>
-    <span>{{ title }} app is running!</span>
+    <h1 (click)='titleClicked()'>
 
+        {{ title }} app is running!
+    </h1>
+    <span> Mi nombre es {{nombreUsuario}} y mi edad es {{edadUsuario}} </span>
+    <input type="text" [value]='nombreUsuario'><br>
+    <input type="text" [(ngModel)]='persona.nombre'>
+    <input type="text" [(ngModel)]='persona.nombre'>
 </div>
