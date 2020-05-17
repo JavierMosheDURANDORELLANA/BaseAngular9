@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'BaseAngular9';
+  tituloMostrado = true;
+
+  buttonClicked(){
+    this.tituloMostrado = !this.tituloMostrado;
+  }
 }
